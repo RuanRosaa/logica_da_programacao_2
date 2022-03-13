@@ -1,0 +1,30 @@
+<meta charset="UTF-8">
+
+<script>
+
+let numeroPatinhos = 5; //nùmero inicial de patinhos
+    let ultimoPatinho = 1; // até quanto irá contar
+    
+    while(numeroPatinhos > ultimoPatinho) {//enquanto numero de patinhos for maior ou igual ao ultimo patinho
+        document.write(numeroPatinhos + " patinhos foram passear </br>"); //os textos abaixo serão exibidos
+        document.write("Além das montanhas para brincar </br>");
+        document.write("A mamãe gritou: Quá, quá, quá, quá </br>");
+        document.write("Mas só " + (numeroPatinhos - ultimoPatinho) + " patinhos voltaram de lá. </br></br>");
+        numeroPatinhos--;//diminui o número de patinhos em -1.
+
+    } if(numeroPatinhos == ultimoPatinho) { //se o número de patinhos for igual ao número 1 (que representa o último patinho)
+        document.write(numeroPatinhos + " patinho foi passear </br>"); //os textos abaixo serão executados
+        document.write("Além das montanhas para brincar </br>");
+        document.write("A mamãe gritou: Quá, quá, quá, quá </br>");
+        document.write("Mas nenhum patinho voltou de lá. </br></br>");
+        numeroPatinhos--;//diminui o número de patinhos em -1.
+    }
+    
+    //os textos abaixo serão exibido independente das condições
+    document.write("A mamãe patinha foi procurar </br>");
+    document.write("Além das montanhas, </br>");
+    document.write("Na beira do mar, </br>");
+    document.write("A mamãe gritou: Quá, quá, quá, quá </br>");
+    document.write("E todos os patinhos voltaram de lá.");
+    
+</script>
